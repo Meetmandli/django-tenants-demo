@@ -1,0 +1,22 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <title> Public Data</title>
+</head>
+<body>
+    <center>
+        <table border=1 bordercolor="#f0f0ff0" border cellspacing=0>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        {% for i in shared %}
+        <tr>
+            <th>{{i.name}}</th>
+            <th>{{i.email}}</th>
+        </tr>
+        {% endfor %}
+        </table>
+    </center>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <title> Tenant's Data</title>
+</head>
+<body>
+    <center>
+        <table border=1 bordercolor="#0ff0f" border cellspacing=0>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        {% for i in tenant %}
+        <tr>
+            <th>{{i.person}}</th>
+            <th>{{i.last_name}}</th>
+        </tr>
+        {% endfor %}
+        </table>
+    </center>
+</body>
+</html>
