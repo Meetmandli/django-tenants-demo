@@ -9,10 +9,6 @@ cryptography==37.0.4
 distro==1.7.0
 Django==4.0.6
 django-tenants==3.4.2
-docker==5.0.3
-docker-compose==1.29.2
-dockerpty==0.4.1
-docopt==0.6.2
 idna==3.3
 jsonschema==3.2.0
 paramiko==2.11.0
